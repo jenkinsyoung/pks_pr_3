@@ -1,16 +1,44 @@
-# pr_3
+# Практическая работа № 3 (Программирование корпоративных систем)
 
-A new Flutter project.
+## Полошкова Анастасия ЭФБО-01-22
 
-## Getting Started
+### Описание и выполнение задания
+Данная практическая работа была направлена на создание каталога товаров на свободную тему с навигацией на второй экран, где можно посмотреть подробную информацию о товаре.
 
-This project is a starting point for a Flutter application.
+**Тема моего проекта** - "Настольные игры". Я решила сделать карточки, при нажатии на которые пользователи могут прочитать правила игры и некоторые показатели (количество игроков, среднее время игры и возростное ограничение).
 
-A few resources to get you started if this is your first Flutter project:
+В рабооте реализовано два экрана:
+1. Карточки с фотографией, названием, кратким описанием, возрастным ограничением
+2. Подробная информация об игре (фотография, кол-во игроков, среднее время игры, возростное ограничение, описание, краткие правила игры)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Этапы работы
+1. Я выбрала тему "Настольные игры". Основную информацию о товарах я взяла с сайта https://hobbygames.ru/nastolnie/msk
+2. Разработала макет экранов в редакторе дизайнов Pixso (аналог Figma)
+   
+Макет карточек товаров и первого экрана
+![image](https://github.com/user-attachments/assets/f58de614-c275-4344-bcdc-788982927034)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Маккет второго экрана (цвет зависит от изначального цвета карточки)
+
+![image](https://github.com/user-attachments/assets/34c18a9b-71c2-440c-8829-1620b7e69341)
+
+3. Составила таблицу с необходимыми данными по каждому товару
+4. Ориентируясь на спроектированный макет сверстала результат
+
+Первый экран: карточки чередуются (желтая, розовая, синяя)
+
+<img src ="https://github.com/user-attachments/assets/6f7c3399-9946-453a-96c9-dd6f0773d6d2" width="300"/>
+
+<img src ="https://github.com/user-attachments/assets/c5018286-219e-4a2c-bf5e-632f8185d4ef" width="300"/>
+
+<img src ="https://github.com/user-attachments/assets/122fb7ea-07c4-489b-b866-33960ea553c2" width="300"/>
+
+
+Второй экран. Для перехода на него необходимо нажать на карточку игры или на кнопку **Подробнее >>**
+
+<img src ="https://github.com/user-attachments/assets/b622f914-b478-48f5-81b8-12f477815c6f" width="300"/>
+
+<img src ="https://github.com/user-attachments/assets/1ab25af2-3a8d-4c58-81ee-d9266653b158" width="300"/>
+
+<img src ="https://github.com/user-attachments/assets/499db483-0c20-478c-ad89-98fafa09146f" width="300"/>
+
