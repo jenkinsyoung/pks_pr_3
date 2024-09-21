@@ -36,9 +36,36 @@
 
 Второй экран. Для перехода на него необходимо нажать на карточку игры или на кнопку **Подробнее >>**
 
-<img src ="https://github.com/user-attachments/assets/b622f914-b478-48f5-81b8-12f477815c6f" width="300"/>
+<img src ="https://github.com/user-attachments/assets/b90be868-c252-47c5-a416-3833f26e23b4" width="300"/>
 
 <img src ="https://github.com/user-attachments/assets/1ab25af2-3a8d-4c58-81ee-d9266653b158" width="300"/>
 
 <img src ="https://github.com/user-attachments/assets/499db483-0c20-478c-ad89-98fafa09146f" width="300"/>
 
+#### Основные моменты
+
+В ходе работы я сталкнулась:
+1. **Наложение одного контейнера на другой.** Для этого использовался виджет **Stack**, который и позволяет накладывать объекты друг на друга.
+2. **Скругление углов фотографии.** Для решения использовался виджет **ClipRRect**.
+3. **Использование шрифтов из GoogleFonts.** Для этого была добавлена зависимость в файл ```pubspec.yaml```была добавлена зависимость
+ ```
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+```
+
+А нужный шрифт использован как тематический шрифт для всего проекта.
+
+4. **Использование картинок из файловой системы.** Была создана папка ```assets``` в папке ```lib``` и скопированы туда все нужные файлы. Далее в файл ```pubspec.yaml``` добавлены зависимости и пути до нужных картинок
+```
+flutter:
+  assets:
+    - lib/assets/groups_brown.png
+    - lib/assets/groups_pink.png
+    - lib/assets/groups_blue.png
+
+    - lib/assets/clock_brown.png
+    - lib/assets/clock_blue.png
+    - lib/assets/clock_pink.png
+```
